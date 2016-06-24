@@ -1,2 +1,4 @@
 a <- c(rnorm(100))
-plot(a)
+library(ggplot2)
+qplot(a)
+
